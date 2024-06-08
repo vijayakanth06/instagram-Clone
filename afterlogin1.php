@@ -69,7 +69,6 @@ if (mysqli_num_rows($result) > 0) {
         <button class="btn btn-large">
             <a href="index.php"><h5><b><i class="bi bi-box-arrow-left"></i></b></h5>Logout</a>
         </button>
-       
     </nav>
 </div>
 <div  id="homepage">
