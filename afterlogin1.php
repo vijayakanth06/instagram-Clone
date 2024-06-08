@@ -65,9 +65,7 @@ if (mysqli_num_rows($result) > 0) {
         <button class="btn btn-large">
             <a href="#"><h5><b><i class="bi bi-envelope"></i></b></h5><?php echo $email; ?></a>
               </button>
-        <button class="btn btn-large">
-            <a href="#"><h5><b><i class="bi bi-phone"></i></b></h5><?php echo $number; ?></a>
-              </button>
+        
         <button class="btn btn-large">
             <a href="index.php"><h5><b><i class="bi bi-box-arrow-left"></i></b></h5>Logout</a>
         </button>
