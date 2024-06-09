@@ -5,6 +5,7 @@ if (!isset($_SESSION['username'])) {
     header('location: login.php');
 }
 ?>
+
 <!doctype html>
 <html lang="en">
   <head>
