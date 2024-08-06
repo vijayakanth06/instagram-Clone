@@ -1,14 +1,14 @@
 <?php
+$servername = "sql201.infinityfree.com";
+$username = "if0_37049318";
+$password = "mErgT0wDQUn";
+$dbname = "if0_37049318_instagram";
 
-$HOSTNAME='sql201.infinityfree.com';
-$USERNAME='if0_37049318';
-$PASSWORD='mErgT0wDQUn';
-$DATABASE='if0_37049318_instagram';
-$con=mysqli_connect($HOSTNAME,$USERNAME,$PASSWORD,$DATABASE);
-if($con){
-    echo "";
-}
-else{
-    die(mysqli_error($con));
+// Create connection
+$con = mysqli_connect($servername, $username, $password, $dbname);
+
+// Check connection
+if (!$con) {
+    die("Connection failed: " . mysqli_connect_error());
 }
 ?>

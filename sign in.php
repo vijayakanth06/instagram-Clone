@@ -62,7 +62,7 @@ background-size: cover;">
     <img src="dclo.jpeg" alt="" height="100" width="100">
     <h1>DCGRAM</h1>
     <h3>Enter your credentials</h3>
-    <form action="sign in.html" method="post" id="Form2" name="form2" onsubmit="return formvalidation()">
+    <form action="sign in.php" method="post" id="Form2" name="form2" onsubmit="return formvalidation()">
         <label for="first">
               Username:
           </label>
@@ -131,7 +131,7 @@ if($_SERVER['REQUEST_METHOD']=='POST')
 $_SESSION['username']=$name;
 $_SESSION['email']=$email;
 $_SESSION['mobno']=$mobno;
-header('location:aftersignin.html');
+header('location:aftersignin.php');
         }
         else{
             die(mysqli_error($con));

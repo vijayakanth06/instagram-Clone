@@ -23,7 +23,7 @@ background-size: cover;">
   <img src="dc lo.jpeg" alt="" height="100" width="100">
   <h1>DCGRAM</h1>
   <h3>Enter your login credentials</h3>
-  <form action="log in.html" method="post" id="Form1" name="form1" onsubmit="return formvalidation()">
+  <form action="log in.php" method="post" id="Form1" name="form1" onsubmit="return formvalidation()">
       <label for="username">
             Username:
         </label>

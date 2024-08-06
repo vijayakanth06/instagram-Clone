@@ -1,4 +1,4 @@
-<!-- <?php
+<?php
 session_start();
 if (!isset($_SESSION['username'])) {
     $_SESSION['msg'] = "You have to log in first";
@@ -6,7 +6,6 @@ if (!isset($_SESSION['username'])) {
     exit();
 }
 ?>
- -->
 <html lang="en">
   <head>
     <meta charset="utf-8">
