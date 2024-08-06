@@ -110,7 +110,7 @@ if($_SERVER['REQUEST_METHOD']=='POST')
     $email=$_POST['email'];
     $password=$_POST['password'];
     $mobno=$_POST['mobno'];
-    $sql="SELECT * FROM mlb30 WHERE username='$name'";
+    $sql="SELECT * FROM signin WHERE username='$name'";
     $result=mysqli_query($con,$sql);
     if($result)
     {
@@ -122,7 +122,7 @@ if($_SERVER['REQUEST_METHOD']=='POST')
         echo '<p style="color: black;align:center;">username already exist.</p>';
     }
     else{
-        $sql="INSERT INTO mlb30 (username,email,password,mobno) VALUES ('$name','$email','$password','$mobno')";
+        $sql="INSERT INTO signin (username,email,password,mobno) VALUES ('$name','$email','$password','$mobno')";
         $result=mysqli_query($con,$sql);
         if($result)
         {
