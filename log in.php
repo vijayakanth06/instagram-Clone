@@ -47,7 +47,7 @@ background-size: cover;">
       </div>
   </form>
   <p  style="color:white;">Not registered?
-        <a class="cre" href="sign in.html"
+        <a class="cre" href="sign in.php"
          style="color:white;">
           Create an account
       </a>
@@ -55,7 +55,7 @@ background-size: cover;">
   </div>
 </body>
 </html>
-<!-- <?php
+<?php
 $logged=0;
 $invalid=0;
 if($_SERVER['REQUEST_METHOD']=='POST'){
@@ -80,4 +80,4 @@ echo '<p style="color: white;align:center;">invalid username or password.</p>';
 }
 }
 }
-?> -->
+?>

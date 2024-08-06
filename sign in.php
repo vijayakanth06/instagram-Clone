@@ -100,7 +100,7 @@ background-size: cover;">
     </div>
 </body>
 </html>
-<!-- <?php 
+<?php 
 $registered=0;
 $userexsists=0;
 if($_SERVER['REQUEST_METHOD']=='POST')
@@ -140,4 +140,3 @@ header('location:aftersignin.html');
     }
 }
 ?>
- -->
