@@ -16,13 +16,13 @@
 <div  id="menu">
     <nav>
         <button class="btn btn-large">
-            <a href="index.html" id="name">
+            <a href="index.php" id="name">
                 <img src="instagram-logo.png" width="150px" alt="">
             </a>
         </button><br>
 
         <button class="btn btn-large ">
-            <a href="index.html"><h5><b><i class="bi bi-house"></i></i></b></h5>Home</a>
+            <a href="index.php"><h5><b><i class="bi bi-house"></i></i></b></h5>Home</a>
         </button><br>
         <button class="btn btn-large">
             <a href="#"><h5><b><i class="bi bi-search"></i></b></h5>Search</a>
