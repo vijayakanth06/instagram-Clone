@@ -1,6 +1,6 @@
 <?php
 
-$HOSTNAME='localhost';
+$HOSTNAME='sql201.infinityfree.com';
 $USERNAME='if0_37049318';
 $PASSWORD='mErgT0wDQUn';
 $DATABASE='if0_37049318_instagram';
