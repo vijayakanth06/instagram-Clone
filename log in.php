@@ -76,7 +76,7 @@ header('location:afterlogin1.php');
 }
 else{
 $invalid=1;
-echo '<p style="color: white;align:center;">invalid username or password.</p>';
+echo '<p style="color: white; text-align: center;">Invalid username or password.</p>';
 }
 }
 }
