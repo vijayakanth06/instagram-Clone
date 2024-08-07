@@ -171,3 +171,25 @@ h6{
         margin-left: 0;
     }
 }
+
+@media (min-width: 769px) {
+    #menu {
+        height: 100vh;
+        width: 250px;
+        position: fixed;
+        display: inline;
+        border-right: 1px solid rgb(255, 255, 255);
+    }
+
+    #homepage {
+        margin-left: 250px;
+        margin-right: 50px;
+    }
+
+    .post>img, video {
+        width: 100%;
+        max-width: 480px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
