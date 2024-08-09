@@ -1,195 +1,133 @@
 
 /*menubar*/
 #menu{
-    height: 100vh;
-    width: 250px;
-    background-color: rgb(0, 0, 0);
+    height: 710px;
+    width:250px;
+    background-color: black;
     color: white;
     position: fixed;
     display: inline;
-    border-right: 1px solid rgb(255, 255, 255);
-}
-
-a{
+    border-right: 1px solid rgb(78, 78, 78);
+    }
+    a{
     text-decoration: none;
     color: white;
     font-weight: bold;
-}
-
-span{
-    margin: 20px;
-margin: 20px ;}
-
-button{
-    background-color: rgb(0, 0, 0);
-    outline-color: rgb(0, 0, 0);
-    color: white;
-    padding: 10px;
-}
-
-.btn{
+    }
+    span{
+    margin: 20px ;
+    }
+    button{
+    background-color: black;
+    outline-color: black;
+    padding:10px;
+    }
+    .btn{
     margin: 10px;
-    color: white;
-    font-weight: bold;
-margin: 10px;}
-
-a:hover{
-    font-size: large;
-    font-weight: bold;
-}
-
-/*story section*/
-.stories>img{
-    height: 58px;
-    width: 58px;
+    }
+    a:hover{
+        font-size: large;
+        font-weight: bold;
+    }
+    
+    /*story section*/
+    .stories>img{
+    height:58px;
+    width:58px;
     border-radius: 50px;
     margin-bottom: 5px;
     padding: 3px;
-}
-
-figcaption{
+    }
+    figcaption{
     font-size: 10px;
-}
-
-.story{
+    }
+    .story{
     display: flex;
     flex-wrap: wrap;
-}
-
-.stories{
-    height: 58px;
-    width: 58px;
+    }
+    .stories{
+    height:58px;
+    width:58px;
     margin: 7px;
     border-radius: 50px;
     background-color: beige;
-    background: linear-gradient(orange, orangered, red, purple);
+    background: linear-gradient(orange,orangered,red ,purple);
     margin-top: 50px;
     margin-bottom: 40px;
-}
-
-/*homepage*/
-#homepage{
-    margin-left: 250px;
+    }
+    
+    /*homepage*/
+    #homepage{
+    margin-left:400px;
     margin-right: 50px;
-}
-
-body{
+    }
+    body{
     color: white;
-    background-color: rgb(0, 0, 0);
+    background-color:black;
     background-attachment: scroll;
-}
-
-/*post section*/
-.bi-three-dots {
+    }
+    
+    
+    
+    
+    /*post section*/
+    
+    .bi-three-dots {
     position: absolute;
     margin-top: 19px;
-    margin-left: 300px;
-}
-
-.post>img, video{
-    width: 100%;
-    max-width: 480px;
-    margin-left: auto;
-    margin-right: auto;
-width:480px;
-}
-.postheader>img{
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    margin: 10px;
+    margin-left:300px;
+    }
+    .post>img, video{
+    width:480px;
+    margin-left: 58px;
+    }
+    .postheader>img{
+    height:40px;
+    width:40px;
+    border-radius:50%;
+    margin:10px;
     margin-left: 60px;
-}
-
-h6{
+    }
+    h6{
     display: inline;
-}
-
-.comment{
+    }
+    .comment{
     margin-left: 70px;
-}
-
-h5{
+    }
+    h5{
     display: inline;
     padding-right: 20px;
-}
-
-/*comment section*/
-.comment{
+    }
+    
+    
+    /*comment section*/
+    .comment{
+        align-items: center;
     display: flex;
-display: flex;}
-
-.comment>h4>i{
+    }
+    .comment>h4>i{
     padding-right: 19px;
-padding-right: 19px;}
-
-.bi-bookmark, .bi-bookmark-fill{
+    }
+    .bi-bookmark, .bi-bookmark-fill{
     position: relative;
     padding-left: 330px;
-}
-
-.like{
+    }
+    .like{
     margin-left: 70px;
     font-size: 8px;
     margin-top: 8px;
-}
-
-pre{
+    }
+    pre{
     font-size: 15px;
-    font-weight: normal;
+    font-weight:normal;
     color: rgb(175, 181, 187);
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-h6{
+    font-family:Arial, Helvetica, sans-serif;
+    }
+    h6{
     font-weight: bold;
-}
-
-.unbold{
+    }
+    .unbold{
     font-weight: lighter;
     font-size: 15px;
     color: rgb(138, 148, 148);
-}
-
-/* Responsive Styles */
-
-@media (max-width: 768px) {
-    #menu {
-        width: 100%;
-        height: auto;
-        position: static;
-        border-right: none;
     }
-
-    #homepage {
-        margin-left: 0;
-        margin-right: 0;
-    }
-
-    .post>img, video {
-        max-width: 100%;
-        margin-left: 0;
-    }
-}
-
-@media (min-width: 769px) {
-    #menu {
-        height: 100vh;
-        width: 250px;
-        position: fixed;
-        display: inline;
-        border-right: 1px solid rgb(255, 255, 255);
-    }
-
-    #homepage {
-        margin-left: 250px;
-        margin-right: 50px;
-    }
-
-    .post>img, video {
-        width: 100%;
-        max-width: 480px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
